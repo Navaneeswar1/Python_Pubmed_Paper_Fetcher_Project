@@ -70,10 +70,10 @@ poetry run python get_papers_list.py "cancer research" -f output.csv -d
 
 ## Tools & Libraries Used
 
-Entrez API (BioPython) – Fetches PubMed papers. Docs
-Poetry – Manages dependencies. Docs
-argparse – Parses command-line arguments. Docs
-mypy (optional) – Static type checking. Docs
+Entrez API (BioPython) – Fetches PubMed papers. 
+Poetry – Manages dependencies. 
+argparse – Parses command-line arguments. 
+mypy (optional) – Static type checking. 
 
 ## Contributing
 
