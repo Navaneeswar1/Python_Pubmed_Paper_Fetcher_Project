@@ -26,7 +26,7 @@ pubmed_paper_fetcher/
 Python 3.8+
 Poetry (for dependency management)
 
-### 1️⃣ Install Poetry
+### Install Poetry
 
 ```sh
 pip install poetry
