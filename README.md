@@ -4,20 +4,7 @@
 
 This Python program fetches research papers from PubMed based on a user-specified query, filters papers where at least one author is affiliated with a pharmaceutical or biotech company, and exports the results as a CSV file.
 
-## Project Structure----->
 
-pubmed_paper_fetcher/
-│── pubmed_fetcher/
-│ ├── **init**.py
-│ ├── fetch.py # Fetches paper IDs and details from PubMed
-│ ├── filter.py # Filters industry-affiliated authors
-│ ├── export.py # Exports data to CSV
-│── get_papers_list.py # Command-line script to fetch and filter papers
-│── pyproject.toml # Poetry configuration for dependencies
-│── README.md # Documentation
-│── tests/
-│ ├── test_fetch.py # Unit tests for fetching
-│ ├── test_filter.py # Unit tests for filtering
 
 ## Installation
 
