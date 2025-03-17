@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pubmed_paper_fetcher"
+version = "0.1.0"
+description = "A Python package to fetch PubMed research papers"
+authors = ["Your Name <your.email@example.com>"]
+packages = [{ include = "pubmed_paper_fetcher" }]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.28.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2"
+
+[tool.poetry.scripts]
+get-papers-list = "pubmed_paper_fetcher.get_papers_list:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
